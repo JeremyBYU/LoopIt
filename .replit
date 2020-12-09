@@ -1,2 +1,2 @@
 language = "bash"
-run = "rm -rf cmake-build && mkdir cmake-build && cd cmake-build && cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build . && cd .. && ./cmake-build/bin/Loop1"
+run = "rm -rf cmake-build && mkdir cmake-build && cd cmake-build && cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build . && cd .. && ./cmake-build/bin/StartUp"
