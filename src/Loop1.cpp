@@ -2,10 +2,18 @@
 #include <string>
 int main()
 {
-  // For Loops
-  for (int i = 0; i < 5; ++i)
-  {
-    std::cout << "Loop " + std::to_string(i) << std::endl;
-  }
+  
+  bool repeat = true; // condition variable
+  std::string input;  // user input variable
+
+  //  conditional
+  //      |
+  //      ▼
+  while(repeat)
+  { // Begin Loop Body
+    std::cout << "Loop execututed. Repeat? (y/n): ";
+    std::getline (std::cin, input);
+    repeat = input == "y";
+  } // End Loop Body
   std::cout << "Finished Loops!\n";
 }

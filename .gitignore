@@ -1,6 +1,7 @@
 # Project Specific
 cmake-build
 .vscode
+~$*
 
 # Prerequisites
 *.d
