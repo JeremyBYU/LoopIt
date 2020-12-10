@@ -21,4 +21,4 @@ Make sure that you have CMake and a C++ Compiler installed on your system.
 
 ### Run
 
-The executables 
+The programs are in `cmake-build/bin` directory.
