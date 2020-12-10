@@ -16,8 +16,13 @@ int main()
   for (int i = 0; i < reindeers.size(); ++i)
   { // Begin Loop Body
     std::string reindeer = reindeers[i]; // use 'i' variable
+    if (reindeer == "Cupid")
+    {
+      // Skip this reindeer, don't print name
+      continue;
+    }
     std::cout << "Reindeer #" << std::to_string(i) << 
-                 " is " << reindeer << std::endl;
+                  " is " << reindeer << std::endl;
   } // End Loop Body
   std::cout << "Finished Loops!\n";
 }
