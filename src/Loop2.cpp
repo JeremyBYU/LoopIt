@@ -15,7 +15,7 @@ int main()
   //       ▼             ▼                ▼
   for (int i = 0; i < reindeers.size(); ++i)
   { // Begin Loop Body
-    std::string reindeer = reindeers[i]; // use index variable to 'pull' item from vector
+    std::string reindeer = reindeers[i]; // use 'i' variable to copy item from vector
     std::cout << "Reindeer #" << std::to_string(i) << " is " << reindeer << std::endl;
   } // End Loop Body
   std::cout << "Finished Loops!\n";

@@ -2,7 +2,7 @@ string(
     APPEND _opts
     "$<IF:$<CXX_COMPILER_ID:MSVC>,"
         "/W4;$<$<CONFIG:RELEASE>:/O2>,"
-        "-Wall;-Wextra;-Werror;"
+        "-Wall;-Wextra;"
             "$<$<CONFIG:RELEASE>:-O3>"
             "$<$<CXX_COMPILER_ID:Clang>:-stdlib=libc++>"
     ">"
