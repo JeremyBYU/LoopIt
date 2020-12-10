@@ -1,11 +1,18 @@
 # Loop It - C++ Loops Explained
 
-This repository contains a PowerPoint lecture and accompanying source code to teach about C++ Loops. The code can run online using repl.it using or can be run locally per the procedures below.
+[![run on repl.it](https://repl.it/badge/github/JeremyBYU/LoopIt)](https://repl.it/@JeremyBYU/LoopIt)
 
+This repository contains a PowerPoint lecture and accompanying source code to teach about C++ Loops. The code can run online using repl.it using or locally per the procedures below.
 
 ## Run Online
 
+Click this button: [![run on repl.it](https://repl.it/badge/github/JeremyBYU/LoopIt)](https://repl.it/@JeremyBYU/LoopIt)
 
+This should open up a website with a full editor and c++ compiler. The projects has already been configured as well, just click the green 'Run' button at the top.
+
+In the editor on the left, open the `src` folder and make changes to any source file! Recompile by clicking the 'Run' button 
+
+![run on repl.it](./Lecture/imgs/replit.png)
 
 ## Run Local
 
@@ -21,4 +28,4 @@ Make sure that you have CMake and a C++ Compiler installed on your system.
 
 ### Run
 
-The programs are in `cmake-build/bin` directory.
+The programs are in `cmake-build/bin` directory. For example `./cmake-build/bin/While1` will run the first program.
