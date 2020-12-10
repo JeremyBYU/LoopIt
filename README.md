@@ -2,7 +2,7 @@
 
 [![run on repl.it](https://repl.it/badge/github/JeremyBYU/LoopIt)](https://repl.it/@JeremyBYU/LoopIt)
 
-This repository contains a PowerPoint lecture and accompanying source code to teach about C++ Loops. The code can run online using repl.it using or locally per the procedures below.
+This repository contains a PowerPoint lecture and accompanying source code to teach about C++ Loops. The code can run online or locally per the procedures below.
 
 ## Run Online
 
