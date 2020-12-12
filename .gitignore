@@ -1,5 +1,6 @@
 # Project Specific
 cmake-build
+cmake-build-linux
 .vscode
 ~$*
 
