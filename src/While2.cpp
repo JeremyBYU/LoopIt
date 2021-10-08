@@ -7,7 +7,7 @@ int main()
   while(true)
   { // Begin Loop Body
     std::cout << "Loop execututed. Repeat? (y/n): ";
-    std::getline (std::cin, input);
+    std::cin >> input;
     if (input != "y")
     {
       // Break out of loop

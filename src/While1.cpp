@@ -12,7 +12,7 @@ int main()
   while(repeat)
   { // Begin Loop Body
     std::cout << "Loop execututed. Repeat? (y/n): ";
-    std::getline (std::cin, input);
+    std::cin >> input;
     repeat = input == "y";
   } // End Loop Body
   std::cout << "Finished Loops!\n";

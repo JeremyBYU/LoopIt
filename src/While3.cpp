@@ -9,7 +9,7 @@ int main()
   do
   { // Begin Loop Body
     std::cout << "Loop execututed. Repeat? (y/n): ";
-    std::getline (std::cin, input);
+    std::cin >> input;
     repeat = input == "y";
   } // End Loop Body
   while(repeat);

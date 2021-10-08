@@ -3,8 +3,8 @@
 
 int main()
 {
-  const int rows = 5;
-  const int cols = 5;
+  int rows = 5;
+  int cols = 5;
   // Outer For Loop
   for (int i = 0; i < rows; ++i)
   { 
